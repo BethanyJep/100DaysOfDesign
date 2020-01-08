@@ -33,3 +33,31 @@ h2{
 p{
     font-size: 1.5em;
 }
+input{
+    padding: 10px;
+    background-color: #2eb2ff;
+    border: none;
+    margin: 10px;
+}
+.forms{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border: none;
+    justify-content: center;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+    margin-top: 10px;
+    margin-left: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #555;
+    font-size: 1.5em;
+}
+::placeholder{
+    color: #fff;
+    font-size: 1.5em;
+    opacity: 1;
+}
